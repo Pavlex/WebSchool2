@@ -14,10 +14,6 @@
 	margin-bottom: 0px;
 }
 
-    html, body {
-      margin: 0;
-      padding: 0;
-    }
 
     * {
       box-sizing: border-box;
@@ -74,15 +70,6 @@ body{
 	color: #1437AD;
 	text-decoration: none;
 }
-/*стили для ссылок в меню*/
-.noref{
-	text-decoration: none;
-	color:#000;
-}
-.noref:hover{
-	text-decoration: none;
-	color: #fff;
-}
 .menudiv{
 	display: flex;
 	flex-direction: column;
@@ -92,7 +79,6 @@ body{
 .posts{
 	display: flex;
 	flex-direction: column;
-	z-index: -10;
 }
 .postsdiv{
 	margin: 0% 0% 1%;

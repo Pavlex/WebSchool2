@@ -21,18 +21,21 @@ nav{
   border: 1px solid rgba(0,0,0,.1);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+	z-index: 1;
 }
   nav ul{
     list-style: none;
     position: relative;
     float: right;
     display: inline-table;
+	  z-index: 1;
   }
     nav ul li{
       float: left;
       -webkit-transition: all .2s ease-in-out;
       -moz-transition: all .2s ease-in-out;
       transition: all .2s ease-in-out;
+		z-index: 1;
     }
 
     /*nav ul li:hover{background: rgba(0,0,0,.15);}*/
@@ -70,10 +73,7 @@ nav{
             left: 100%;
             top:0;
           }
-  /*тень при наведении на последнюю кнопку меню*/
-  .menuLast{
-	
-  }
+/*тень при наведении на последнюю кнопку меню*/
 .menuLast:hover{
   background: rgba(0,0,0,.15);
   border-bottom-right-radius: 10px;
