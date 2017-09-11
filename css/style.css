@@ -74,7 +74,9 @@ body{
 	display: flex;
 	flex-direction: column;
 	padding: 0% 0px 0px 0px;
-
+}
+.col-md-12{
+	padding: 0;
 }
 .posts{
 	display: flex;
@@ -173,6 +175,6 @@ font-size:15px;
 }
 .navbar-brand{
 	font-size: 30px;
-	padding:25px 30px;
+/*	padding:25px 30px;*/
 	font-family: 'Libre Baskerville', serif;
 }
