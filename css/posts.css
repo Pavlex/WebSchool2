@@ -1,3 +1,6 @@
+.linkblock{
+	cursor: pointer;
+}
 /*оформление ссылки читать далее*/
 .pread{
 	color:#6352DC;

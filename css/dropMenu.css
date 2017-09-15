@@ -78,12 +78,14 @@ nav{
             top:0;
           }
 /*тень при наведении на последнюю кнопку меню*/
-
-.menuLast:hover{
+.menuLast{
+	margin-right: 13px;
+}
+/*.menuLast:hover{
   background: rgba(0,0,0,.15);
   border-bottom-right-radius: 10px;
 
-}
+}*/
 .menu:hover{
   background: rgba(0,0,0,.15);
 

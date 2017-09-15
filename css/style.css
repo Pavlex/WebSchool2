@@ -90,6 +90,16 @@ body{
 	background:#fff;
 	display: block;
   	box-shadow: 0px 0px 10px -3px #000000;
+	-moz-transition: background-color 0.5s 0.1s ease;
+-o-transition: background-color 0.5s 0.1s ease;
+-webkit-transition: background-color 0.5s 0.1s ease;
+}
+.postsdiv:hover{
+	background: #F4D9FC;
+}
+.doublePosts{
+	display: flex;
+	flex-direction: row;
 }
 .imagepost{
 	float:left; /* Выравнивание по левому краю */
