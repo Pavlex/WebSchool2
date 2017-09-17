@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 *, *:before, *:after{
   -webkit-box-sizing: border-box;
@@ -79,7 +80,7 @@ nav{
           }
 /*тень при наведении на последнюю кнопку меню*/
 .menuLast{
-	margin-right: 13px;
+	margin-right: 20px;
 }
 /*.menuLast:hover{
   background: rgba(0,0,0,.15);
@@ -89,4 +90,13 @@ nav{
 .menu:hover{
   background: rgba(0,0,0,.15);
 
+}
+/*Стиль для иконок в шапке*/
+.iconHead{
+	width: 20px;
+	height: 20px;
+}
+.navbar-brand{
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
 }
