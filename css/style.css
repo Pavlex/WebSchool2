@@ -87,6 +87,18 @@ body{
 	display: flex;
 	flex-direction: column;
 }
+.namePage{
+	margin: 0% 0% 10px;
+	padding: 1%;
+	border: 1px solid #C2C2C2;
+	border-radius: 10px;
+	background:#fff;
+	display: block;
+  box-shadow: 0px 0px 10px -3px #000000;
+	-moz-transition: background-color 0.5s 0.1s ease;/*плавное изменение цвета блока*/
+	-o-transition: background-color 0.5s 0.1s ease;
+	-webkit-transition: background-color 0.5s 0.1s ease;
+}
 .postsdiv{
 	margin: 0% 0% 10px;
 	padding: 2%;
