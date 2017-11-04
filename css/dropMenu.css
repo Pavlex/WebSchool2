@@ -97,6 +97,8 @@ nav{
 	height: 20px;
 }
 .navbar-brand{
+  padding-left: 20px;
 	font-size: 30px;
-	font-family: 'Ubuntu', sans-serif;
+  font-family: 'Lato', sans-serif;
+	/*font-family: 'Ubuntu', sans-serif;*/
 }
