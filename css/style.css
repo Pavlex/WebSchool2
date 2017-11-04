@@ -54,6 +54,11 @@
 body{
 	background-color: #F3F2F0;
 }
+
+.imageHead{
+	  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 /*Стили для кнопки загрузить еще*/
 .btn-more{
 	display: block;
