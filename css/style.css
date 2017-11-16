@@ -52,7 +52,8 @@
       opacity: 1;
     }
 body{
-	background-color: #F3F2F0;
+	/*background-color: #F3F2F0;*/
+	background: linear-gradient(135deg,#B5D6B2 0%,#4E8098 35%, #70587C 80%);
 }
 
 .imageHead{
@@ -112,7 +113,8 @@ body{
 	-webkit-transition: background-color 0.5s 0.1s ease;
 }
 .postsdiv:hover{
-	background: #F4D9FC;
+	background: #E5E5E5;
+	/*background: #CEDEFF;*/
 }
 /*Стиль для двойных постов*/
 .doublePosts{
